@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ql"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".Luong"
+            android:label="@string/title_activity_luong" >
+        </activity>
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/title_activity_menu_screen" >
+        </activity>
+        <activity
+            android:name=".ThemThuChiScreen"
+            android:label="@string/title_activity_them_thu_chi_screen" >
+        </activity>
+        <activity
+            android:name=".KhoanChiScreen"
+            android:label="@string/title_activity_khoan_chi_screen" >
+        </activity>
+        <activity
+            android:name=".KhoanThuScreen"
+            android:label="@string/title_activity_khoan_thu_screen" >
+        </activity>
+        <activity
+            android:name=".ThongKeScreen"
+            android:label="@string/title_activity_thong_ke_screen" >
+        </activity>
+        <activity
+            android:name=".LuongScreen"
+            android:label="@string/title_activity_luong_screen" >
+        </activity>
+        <activity
+            android:name=".ThemLoaiThu"
+            android:label="@string/title_activity_them_loai_thu" >
+        </activity>
+        <activity
+            android:name=".ThemTheLoaiThu"
+            android:label="@string/title_activity_them_the_loai_thu" >
+        </activity>
+        <activity
+            android:name=".ThemLoaiChi"
+            android:label="@string/title_activity_them_loai_chi" >
+        </activity>
+    </application>
+
+</manifest>
